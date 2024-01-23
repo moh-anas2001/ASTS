@@ -373,16 +373,27 @@
     aspect-ratio: 16/14;
   }
 
-  @media (max-width: 475px) {
+  @media (max-width: 575px) {
     h5.text-light {
-      font-size: 10px; /* Adjust the font size as needed */
+      font-size: 15px; /* Adjust the font size as needed */
     }
   
     h1.display-2 {
       font-size: 30px; /* Adjust the font size as needed */
     }
   
-    .breadcrumb-item.fs-5 {
-      font-size: 5px; /* Adjust the font size as needed */
+    .in  {
+      font-size: 12px !important /* Adjust the font size as needed */
+    }
+  }
+
+  @media (max-width: 575px) {
+    .abt-box{
+      width: 50px; /* Adjust the width as needed */
+      height: 50px; /* Adjust the height as needed */
+    }
+  
+    .text-white {
+      font-size: 14px; /* Adjust the font size as needed */
     }
   }
