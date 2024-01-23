@@ -372,3 +372,17 @@
     width: 100%;
     aspect-ratio: 16/14;
   }
+
+  @media (max-width: 475px) {
+    h5.text-light {
+      font-size: 10px; /* Adjust the font size as needed */
+    }
+  
+    h1.display-2 {
+      font-size: 30px; /* Adjust the font size as needed */
+    }
+  
+    .breadcrumb-item.fs-5 {
+      font-size: 5px; /* Adjust the font size as needed */
+    }
+  }
