@@ -355,3 +355,16 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+
+/* #custom */
+
+
+  .pr-img{
+    width: 100%;
+    aspect-ratio: 4/3;
+  }
+  .ab-mis-img{
+    width: 100%;
+    aspect-ratio: 16/17;
+  }
